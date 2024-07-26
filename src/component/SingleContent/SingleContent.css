@@ -14,11 +14,19 @@
   background-color: white;
   color: black;
 }
-
+.poster{height: 300px;}
 @media (max-width: 550px) {
   .media {
-    width: 46%;
+    width: 100%;
+ 
+    margin: auto;
   }
+}
+@media (max-width: 500px) {
+ .poster{
+  width: 100vw;
+  border: 1px solid;
+ }
 }
 
 .poster {

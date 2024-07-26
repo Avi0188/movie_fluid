@@ -97,7 +97,9 @@ export default function TransitionsModal({ children, media_type, id }) {
                   className="ContentModal__portrait"
                 />
                 <img
-                  src={
+               
+                  src=
+                  {
                     content.backdrop_path
                       ? `${img_500}/${content.backdrop_path}`
                       : unavailableLandscape
